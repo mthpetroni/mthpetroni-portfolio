@@ -762,12 +762,16 @@ img.lazy.loaded.cover-hover { opacity: 0; }
   justify-content: center;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
 }
-.img-compare-caption {
-  display: flex;
-  justify-content: space-between;
+.cs-image-caption {
+  text-align: center;
   margin-top: 12px;
-  font-size: var(--fs-body);
+  font-size: 14px;
   font-weight: var(--fw-light);
+  color: var(--color-text-secondary, #888);
+  padding: 0 15%;
+}
+.cs-image-caption strong {
+  font-weight: var(--fw-black);
 }
 .cs-image-block + .cs-image-block { padding-top: var(--gutter); }
 
