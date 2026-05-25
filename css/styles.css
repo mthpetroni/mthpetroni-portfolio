@@ -762,6 +762,22 @@ img.lazy.loaded.cover-hover { opacity: 0; }
   justify-content: center;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
 }
+/* --------------------------------------------------------------------------
+   SCROLL FADE-IN
+   -------------------------------------------------------------------------- */
+.fade-up {
+  opacity: 0;
+  transform: translateY(48px);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+.fade-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .fade-up { opacity: 1; transform: none; transition: none; }
+}
+
 .cs-image-caption {
   text-align: center;
   margin-top: 12px;

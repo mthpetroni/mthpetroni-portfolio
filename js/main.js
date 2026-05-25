@@ -258,6 +258,22 @@
   }
 
   /* --------------------------------------------------------------------------
+     SCROLL FADE-IN — homepage section blocks
+     -------------------------------------------------------------------------- */
+  var fadeEls = document.querySelectorAll('.project-card, .projects-coming-soon, .vision, .about, .cs-section, .cs-image-block, .cs-hero-image, .cs-achievements, .cs-team-block, .more-cases-wrapper');
+  if (fadeEls.length && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    fadeEls.forEach(function (el) { el.classList.add('fade-up'); });
+    var fadeObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        fadeObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -60px 0px' });
+    fadeEls.forEach(function (el) { fadeObserver.observe(el); });
+  }
+
+  /* --------------------------------------------------------------------------
      SMOOTH ANCHOR SCROLLING with offset for fixed AppBar
      -------------------------------------------------------------------------- */
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
