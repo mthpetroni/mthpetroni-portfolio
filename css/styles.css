@@ -936,6 +936,7 @@ img.lazy.loaded.cover-hover { opacity: 0; }
   .cs-section-inner    { padding-inline: var(--pad-tablet); }
   .cs-section-body     { grid-template-columns: 1fr; }
   .cs-section-body > div:nth-child(2) { grid-column: auto; }
+  .cs-section-body.deliverables { grid-template-columns: 1fr; }
   .cs-image-block      { padding-inline: var(--pad-tablet); }
   .more-cases-wrapper  { padding-inline: var(--pad-tablet); }
   .cs-achievements     { grid-template-columns: repeat(3, 1fr); }
