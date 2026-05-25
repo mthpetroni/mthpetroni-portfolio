@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Olist Shops App — A case study by Matheus Petroni on designing a new customization feature for an international online store builder.">
+  <title>Olist Shops App — Matheus Petroni</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/asterisk.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ======================================================================
+       APPBAR
+       ====================================================================== -->
+  <header class="appbar" role="banner">
+    <div class="appbar-inner">
+      <a href="index.html" class="appbar-logo" aria-label="Matheus Petroni — home">Matheus Petroni</a>
+
+      <nav class="appbar-nav" aria-label="Main navigation">
+        <a href="index.html#work"   class="nav-link">Work</a>
+        <a href="index.html#vision" class="nav-link">Vision</a>
+        <a href="index.html#about"  class="nav-link">About</a>
+      </nav>
+
+      <button
+        class="hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-drawer"
+      >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MOBILE DRAWER
+       ====================================================================== -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true" inert>
+    <div class="drawer-overlay" role="presentation"></div>
+    <nav class="drawer-panel" aria-label="Mobile navigation">
+      <button class="drawer-close" aria-label="Close navigation menu">✕</button>
+      <a href="index.html#work"   class="drawer-link">Work</a>
+      <a href="index.html#vision" class="drawer-link">Vision</a>
+      <a href="index.html#about"  class="drawer-link">About</a>
+    </nav>
+  </div>
+
+  <!-- ======================================================================
+       MAIN
+       ====================================================================== -->
+  <main id="main-content">
+
+    <!-- ====================================================================
+         CASE STUDY HEADER
+         ==================================================================== -->
+    <section class="cs-header" aria-label="Case study overview">
+      <div class="cs-header-inner">
+
+        <a href="index.html" class="back-link" aria-label="Back to all work">← BACK</a>
+
+        <div class="cs-header-content">
+          <div class="cs-header-left">
+            <h1 class="cs-title">Olist Shops App</h1>
+            <div class="cs-meta">
+              <span class="cs-company">Olist</span>
+              <span class="cs-meta-separator">/</span>
+              <span class="cs-year">2021</span>
+            </div>
+          </div>
+          <div class="cs-header-right">
+            <p class="cs-intro">Development of a new customization feature for the Olist Shops application, an international online store builder focused on small shopkeepers. Research with previously existing data, application of agile methodologies, collaborative actions between teams and use of open source tools were crucial for a delivery in record time and with quality.</p>
+            <p class="cs-timeframe">Timeframe: 2 months</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Hero image -->
+    <div class="cs-hero-image">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-hero.webp"
+        alt="Create your store with Olist Shops — product overview screens"
+        width="2800"
+        height="1440"
+        loading="lazy"
+        style="background: #000000; width: 100%;"
+        class="lazy"
+      >
+    </div>
+
+    <!-- ====================================================================
+         SCENARIO AND ROLES
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Scenario and roles">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Scenario and roles</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>Olist Shops was created in 2020 with the goal of being a mobile-first solution for retailers to build their catalogs and online stores. With the pandemic scenario, the application saw its use take off in the first months, generating +100 thousand online stores and being used in +160 countries.</p>
+            </div>
+            <div>
+              <p>As Product Designer, one of my challenges was to evolve the stores' interfaces from an extremely simple model to a more robust version, with more customization and layout options. All of this ensures an adequate usability for the website editing on mobile devices and for audiences with little knowledge in technology.</p>
+              <p>All this context took place in a new Squad, with no backlog of tasks and a large team of developers. In collaboration with my Product Manager, we were able to generate demand for the technical team from the beginning while we made our product discoveries for building the solutions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-image-block">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-scenario-1.webp"
+        alt="Olist Shops scenario overview"
+        width="2800"
+        height="1114"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <!-- ====================================================================
+         PROCESS AND DELIVERABLES — PART 1
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Process and Deliverables">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Process and Deliverables</h2>
+          <div class="cs-section-body wide-first">
+            <div>
+              <p>Because of the short time available for the execution of the task, at first we focused on discoveries from previously available data in our database, such as qualitative answers in our fixed suggestions forms, previous interviews with users, conversion funnels and data from application usage events.</p>
+              <p>This helped us define the first step of the project: the color change of the stores, which was previously non-customizable, and would now have a pre-selected color palette for the shopkeeper to choose from, thus maintaining the appropriate accessibility standards. For the choice of the main colors, we did a chromatic analysis of more than 40 thousand logos registered in our platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-image-block">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-process-1.webp"
+        alt="Color palette research and chromatic analysis"
+        width="2800"
+        height="1172"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 16px;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-process-2.webp"
+        alt="Store color customization feature"
+        width="2800"
+        height="1816"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <!-- ====================================================================
+         PROCESS AND DELIVERABLES — PART 2
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Process and Deliverables continued">
+      <div class="cs-section-inner">
+        <div>
+          <div class="cs-section-body">
+            <div>
+              <p>Once this first delivery was done, we moved on to a new step: allowing the store's layout to be modified in a more structural way, both by changing the store's theme and by adding new essential blocks (banners, carousels and other common e-commerce highlights).</p>
+              <p>For this delivery, we analyzed the main orders in our service channels, as well as the main e-commerce benchmarks in the market, looking for common patterns in this type of product.</p>
+            </div>
+            <div>
+              <p>Some factors were crucial for the success of the delivery in the time we had, such as the use of initial wireframes to speed up the technical team while decisions were being made (dual track workflow), the use of an open source design system to gain speed in the componentization and the partnership with olist's visual design team to customize the components of new themes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-image-block">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-process-3.webp"
+        alt="Store layout and theme customization"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <!-- ====================================================================
+         RESULTS AND LEARNINGS
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Results and learnings">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Results and learnings</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>In a short time, the store customization features entered the top 3 features used in the application. With this sharp evolution, we were able to adapt our product to market standards and competition, innovating with a 100% mobile solution and solving the main issues of our users regarding their stores.</p>
+              <p>Besides the business results, our performance in this functionality led to several conversations and knowledge sharing with the community, both internally in the company and externally in the format of a lecture at the "2nd UX Design Seminar" (November, São Paulo - Brazil).</p>
+            </div>
+            <div>
+              <p>In this scenario of tight deadlines for big deliverables, one of the main attributes I learned is to use the data and information that already exists within your system and your community, thus allowing you to make some decisions and delve only into what matters for the project.</p>
+              <p>Another crucial factor was the power of collaboration: both between teams and in the open-source community. Bringing the technical team to the beginning of the project, creating tasks from doodles and wireframes, was crucial to speed up the delivery, as well as to involve correlated areas of the company and seek pre-structured solutions, avoiding rework and slowness for the final delivery of value.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-image-block" style="padding-bottom: 0;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-results-1.webp"
+        alt="Post-launch results and community impact"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 0; padding-bottom: 0;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-results-2.webp"
+        alt="Post-launch results and community impact"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 0; padding-bottom: 0;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-results-3.webp"
+        alt="Post-launch results and community impact"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 0;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/olist-shops-results-4.webp"
+        alt="Post-launch results and community impact"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-team-block">
+      <p><span class="cs-team-label">Teams:</span> <span class="cs-team-list">Matheus Petroni (Product Designer), Tássia Pacheco (Product Manager), Halinne Lima (Web Designer), Piercarlo Melatti (Design Lead), Vinícius Campos (Tech Lead), João Belém, Gustavo Alves, Gustavo Inácio (Developers).</span></p>
+    </div>
+
+    <!-- More cases -->
+    <div class="more-cases-wrapper">
+      <a href="index.html#work" class="more-cases-link">← MORE CASES</a>
+    </div>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+
+    <div class="footer-bar">
+      <div class="footer-bar-inner">
+        <div class="footer-location">
+          <span>São Paulo</span>
+          <time class="live-clock" id="clock-footer" aria-live="polite" aria-atomic="true"></time>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a
+            href="https://www.linkedin.com/in/matheuspetroni/"
+            class="footer-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile (opens in new tab)"
+          >LinkedIn</a>
+          <a
+            href="assets/docs/resume.pdf"
+            class="footer-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Resume PDF (opens in new tab)"
+          >Resume</a>
+          <a
+            href="https://lattes.cnpq.br/6202919776158281"
+            class="footer-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Lattes CV (opens in new tab)"
+          >Lattes</a>
+        </nav>
+        <p class="footer-copy">© 2013 — <span class="footer-copy-year">2026</span></p>
+      </div>
+    </div>
+
+    <div class="letschat-wrapper">
+      <a
+        href="mailto:contact@mthpetroni.com"
+        class="letschat"
+        aria-label="Send an email to contact@mthpetroni.com"
+      >let's chat</a>
+    </div>
+
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

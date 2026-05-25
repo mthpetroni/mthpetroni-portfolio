@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bitso Business Dashboard — A case study by Matheus Petroni on rebuilding a merchant platform from scratch for companies moving billions across borders.">
+  <title>Bitso Business Dashboard — Matheus Petroni</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/asterisk.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ======================================================================
+       APPBAR
+       ====================================================================== -->
+  <header class="appbar" role="banner">
+    <div class="appbar-inner">
+      <a href="index.html" class="appbar-logo" aria-label="Matheus Petroni — home">Matheus Petroni</a>
+
+      <nav class="appbar-nav" aria-label="Main navigation">
+        <a href="index.html#work"   class="nav-link">Work</a>
+        <a href="index.html#vision" class="nav-link">Vision</a>
+        <a href="index.html#about"  class="nav-link">About</a>
+      </nav>
+
+      <button
+        class="hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-drawer"
+      >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MOBILE DRAWER
+       ====================================================================== -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true" inert>
+    <div class="drawer-overlay" role="presentation"></div>
+    <nav class="drawer-panel" aria-label="Mobile navigation">
+      <button class="drawer-close" aria-label="Close navigation menu">✕</button>
+      <a href="index.html#work"   class="drawer-link">Work</a>
+      <a href="index.html#vision" class="drawer-link">Vision</a>
+      <a href="index.html#about"  class="drawer-link">About</a>
+    </nav>
+  </div>
+
+  <!-- ======================================================================
+       MAIN
+       ====================================================================== -->
+  <main id="main-content">
+
+    <!-- ====================================================================
+         CASE STUDY HEADER
+         ==================================================================== -->
+    <section class="cs-header" aria-label="Case study overview">
+      <div class="cs-header-inner">
+
+        <a href="index.html" class="back-link" aria-label="Back to all work">← BACK</a>
+
+        <div class="cs-header-content">
+          <div class="cs-header-left">
+            <h1 class="cs-title">Bitso Business Dashboard</h1>
+            <div class="cs-meta">
+              <span class="cs-company">Bitso</span>
+              <span class="cs-meta-separator">/</span>
+              <span class="cs-year">2025</span>
+            </div>
+          </div>
+          <div class="cs-header-right">
+            <p class="cs-intro">Bitso Business, the unit serving enterprise clients with cross-border payments, FX operations, and treasury management inside Bitso, was running on a web interface mirrored from the retail consumer wallet. Business users moving millions monthly were navigating memecoins, missing basic tracking tools, and operating without multi-account support. Churn was high, onboarding was slow, and the platform was actively working against retention.</p>
+            <p class="cs-intro">I led the design strategy to change that by defining the end-to-end vision for a new, purpose-built business platform: new information architecture, new navigation, new homepage with real-time operational tracking, multi-account payments, and a full web design system co-created from zero using AI and open-source. I set the direction, established the visual and structural foundations, and guided a team of designers through execution across every surface.</p>
+            <p class="cs-timeframe">Timeframe: 6 months</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Hero image -->
+    <div class="cs-hero-image">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/bitso-business-dashboard-hero.webp"
+        alt="Bitso Business Dashboard — merchant platform overview"
+        width="1440"
+        height="810"
+        loading="lazy"
+        style="background: #000000; width: 100%;"
+        class="lazy"
+      >
+    </div>
+
+    <!-- ====================================================================
+         WHAT IS BITSO BUSINESS?
+         ==================================================================== -->
+    <section class="cs-section" aria-label="What is Bitso Business?">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">About Bitso Business</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>Bitso is the leading crypto-financial platform in Latin America. Bitso Business is its B2B arm, a platform that enables companies to perform cross-border payments, FX operations, OTC trading, and treasury management using stablecoins (USDT, USDC) as rails across currencies like MXN, USD, BRL, ARS, COP, and EUR.</p>
+              <p>Clients range from payment aggregators and remittance companies to fintechs and large enterprises operating across LATAM, the U.S., and Europe.</p>
+            </div>
+            <div class="cs-stats">
+              <div class="cs-stat">
+                <span class="cs-stat-value">$82B</span>
+                <span class="cs-stat-label">annualized total payment volume processed in 2025</span>
+              </div>
+              <div class="cs-stat">
+                <span class="cs-stat-value">$15.6B</span>
+                <span class="cs-stat-label">annualized volume in real-time payments in Mexico alone in 2025</span>
+              </div>
+              <div class="cs-stat">
+                <span class="cs-stat-value">+2000</span>
+                <span class="cs-stat-label">institutional clients across US, LATAM and Europe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SCENARIO
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Scenario">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Scenario</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>Business clients were using an interface designed for retail crypto users: memecoins on the homepage, no operational data, no business-specific workflows. The gap between what the platform offered and what enterprise clients needed was widening.</p>
+              <p><strong>Data confirmed it:</strong> customers using APIs had a revenue churn of just 0.67%, while non-API users sat at 6.58%. The platform experience was a key lever for retention and it was failing.</p>
+            </div>
+            <div class="cs-pain-points">
+              <div class="cs-pain-point">
+                <p class="cs-pain-point-title">Retail-oriented UI</p>
+                <p>The homepage was dominated by crypto tokens and altcoins irrelevant to business users. No visibility into balances, transaction statuses, or SEPA/SWIFT operations at a glance.</p>
+              </div>
+              <div class="cs-pain-point">
+                <p class="cs-pain-point-title">Manual, disconnected workflows</p>
+                <p>OTC trading was fully manual. SEPA/SWIFT required back-and-forth coordination. CSV exports lacked fee integration and custom date ranges.</p>
+              </div>
+              <div class="cs-pain-point">
+                <p class="cs-pain-point-title">No business-specific features</p>
+                <p>Lack of reporting tools, reconciliation exports, fee transparency, and treasury management dashboards. Multi-user and multi-account structures were non-existent.</p>
+              </div>
+              <div class="cs-pain-point">
+                <p class="cs-pain-point-title">High churn, long onboarding</p>
+                <p>Time to Onboarding averaged 23 days. Time to Revenue for Enterprise/Pro was ~96 days. Starter accounts had 25% net revenue churn. The platform wasn't helping retain clients.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         EXPECTED ACHIEVEMENTS
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Expected achievements">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Expected achievements</h2>
+          <div class="cs-achievements">
+            <div class="cs-achievement-card">
+              <strong>Increase retention</strong>
+              <p>Reduce churn by giving business users a purpose-built interface that addresses their operational needs and makes daily tasks effortless.</p>
+            </div>
+            <div class="cs-achievement-card">
+              <strong>Boost engagement</strong>
+              <p>Provide essential tools such as dashboards, reporting and transaction visibility which makes the platform a daily operational hub.</p>
+            </div>
+            <div class="cs-achievement-card">
+              <strong>Enable cross-selling</strong>
+              <p>Make it easy for clients to discover SEPA, SWIFT, OTC, and treasury tools through contextual product awareness.</p>
+            </div>
+            <div class="cs-achievement-card">
+              <strong>Provide transparency</strong>
+              <p>Give clear visibility into fees, volumes, transaction statuses, and account limits through actionable dashboards and analytics.</p>
+            </div>
+            <div class="cs-achievement-card">
+              <strong>Multi-user &amp; accounts</strong>
+              <p>Support enterprise structures with parent/sub-accounts, role-based permissions and cross-account visibility.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-image-block">
+      <div class="img-compare" data-compare>
+        <!-- After: old screen (base layer, defines height) -->
+        <img
+          src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+          data-src="assets/images/bitso-business-dashboard-scenario-1.webp"
+          alt="Old Bitso Business platform"
+          width="1248"
+          height="702"
+          loading="lazy"
+          class="lazy img-compare-after"
+        >
+        <!-- Before: new screen (overlay, clipped) -->
+        <img
+          src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+          data-src="assets/images/bitso-business-dashboard-scenario-1-comparison.webp"
+          alt="New Bitso Business platform"
+          width="1248"
+          height="702"
+          loading="lazy"
+          class="lazy img-compare-before"
+          style="clip-path: inset(0 95% 0 0);"
+        >
+        <!-- Divider handle -->
+        <div class="img-compare-handle" style="left: 5%;">
+          <div class="img-compare-line"></div>
+          <div class="img-compare-btn">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M6 10H14M6 10L9 7M6 10L9 13M14 10L11 7M14 10L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="img-compare-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         ROLE
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Role">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Role</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>I led the design strategy defining the vision, structure, and visual direction for the entire initiative, then guiding a team of designers through execution.</p>
+              <p>I worked alongside a Product Director (Alexandre Santos Spengler), an Associated Product Manager (Diego M. Gutierrez Cordova), and closely with Key Account Managers who provided continuous client context.</p>
+              <p>I directed the design work of Michael Carvalho Pinto Da Cunha, who was responsible for screen-level execution under my guidance.</p>
+            </div>
+            <div>
+              <ul class="cs-bullet-list">
+                <li>Defined the end-to-end design strategy: information architecture, navigation, visual direction, and design principles for the entire platform</li>
+                <li>Co-created the web Design System from zero using AI tools and open-source, establishing tokens, components, and governance</li>
+                <li>Supervised UI execution across all key surfaces (homepage, payments, reporting, trading), guiding designers through screen-level delivery</li>
+                <li>Led user research with enterprise clients and collaborated on competitive benchmarking, translating insights into design requirements</li>
+                <li>Shaped cross-functional decisions: migration strategy, Figma workspace structure, and phased rollout planning</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         PROCESS
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Process">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Process</h2>
+          <div class="cs-section-body">
+            <div>
+              <p><strong>Discovery &amp; Research:</strong> We combined internal stakeholder interviews with external client research, organizing conversations around six themes (usage pain points, reporting, navigation, trading, multi-account, and cross-selling).</p>
+              <p>We layered in existing data from previous researches and competitive benchmarking. Four key findings emerged:</p>
+              <ul class="cs-bullet-list">
+                <li>business clients don't hold altcoins and found the retail UI confusing;</li>
+                <li>reporting was critical but broken;</li>
+                <li>multi-user was a genuine blocker;</li>
+                <li>and operational visibility (fees, volumes, statuses) was nearly nonexistent.</li>
+              </ul>
+            </div>
+            <div>
+              <p><strong>Design System &amp; UI/UX:</strong> We used open-source component libraries as our structural base (accessibility, responsiveness, and interaction patterns out of the box), AI tools to rapidly generate component variations, token definitions, and documentation (compressing days of manual work into hours), and Bitso's new brand identity as a theming layer on top, ensuring visual consistency without rebuilding interaction logic.</p>
+              <p><strong>Validation &amp; Launch:</strong> We ran feedback sessions both internally with our Account Managers and with top clients, iterated on wireframes, and launched in early 2026 for a small group of our most active users. Monthly feature drops kept the platform evolving post-launch.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-image-block">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/bitso-business-dashboard-process-1.webp"
+        alt="Concept prototypes and design iteration rounds"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <!-- ====================================================================
+         DELIVERABLES
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Deliverables">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Deliverables</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>The revamp shipped five core deliverables that collectively transformed the platform from a retail mirror into a purpose-built business tool:</p>
+              <p><strong>New navigation structure:</strong> A completely redesigned information architecture organized around business workflows, replacing the retail-oriented menu with a model that prioritizes operational tasks like payments, reporting, and trading.</p>
+              <p><strong>Homepage with real-time business tracking:</strong> A new homepage built as a financial operations center: real-time balances per currency, transaction statuses, volume and fee metrics, failed transfer alerts, and contextual cross-sell cards.</p>
+            </div>
+            <div>
+              <p><strong>Payments page with multi-account control:</strong> A dedicated pay-ins and payouts view designed for both account holders and their associated accounts, with status tracking, fee breakdowns, filters, and export capabilities.</p>
+              <p><strong>Account switcher:</strong> A persistent control that lets users move between linked accounts without losing context, essential for enterprise clients managing multiple subsidiaries or regional operations from a single login.</p>
+              <p><strong>Full web design system:</strong> A complete, documented component library built from zero using AI and open-source foundations, covering tokens, components, patterns, and page templates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-image-block">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/bitso-business-dashboard-deliverables-1.webp"
+        alt="Dashboard home and navigation system"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 16px;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/bitso-business-dashboard-deliverables-2.webp"
+        alt="Transaction management and bulk operations screens"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 16px;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/bitso-business-dashboard-deliverables-3.webp"
+        alt="Compliance reporting and API tools"
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 16px;">
+      <div class="img-compare" data-compare>
+        <!-- After: new screen (base layer, defines height) -->
+        <img
+          src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+          data-src="assets/images/bitso-business-dashboard-deliverables-4-comparison.webp"
+          alt="New Bitso Business deliverable"
+          width="1248"
+          height="702"
+          loading="lazy"
+          class="lazy img-compare-after"
+        >
+        <!-- Before: old screen (overlay, clipped) -->
+        <img
+          src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+          data-src="assets/images/bitso-business-dashboard-deliverables-4.webp"
+          alt="Old Bitso Business deliverable"
+          width="1248"
+          height="702"
+          loading="lazy"
+          class="lazy img-compare-before"
+          style="clip-path: inset(0 95% 0 0);"
+        >
+        <!-- Divider handle -->
+        <div class="img-compare-handle" style="left: 5%;">
+          <div class="img-compare-line"></div>
+          <div class="img-compare-btn">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M6 10H14M6 10L9 7M6 10L9 13M14 10L11 7M14 10L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="img-compare-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 16px;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/bitso-business-dashboard-deliverables-5.webp"
+        alt=""
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <div class="cs-image-block" style="padding-top: 16px;">
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+        data-src="assets/images/bitso-business-dashboard-deliverables-6.webp"
+        alt=""
+        width="1248"
+        height="702"
+        loading="lazy"
+        style="background: #000000;"
+        class="lazy"
+      >
+    </div>
+
+    <!-- ====================================================================
+         RESULTS AND LEARNINGS
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Results and learnings">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Results and learnings</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>The new platform launched in January 2026 and has been live for three months at the time of this analysis. While it's still early, the initial signals are strong.</p>
+              <p><strong>Drastic reduction in support tickets:</strong> Three of the most common ticket categories (monthly limits inquiries, account switching issues and report generation requests) saw a sharp decrease after launch. The new interface surfaces this information directly in the dashboard: limits are visible in real-time, the account switcher and better information architecture eliminated confusion around multi-account navigation, and self-service reporting access replaced the need to request exports through support. Information that previously required contacting an Account Manager or opening a ticket is now accessible in the daily workflow.</p>
+            </div>
+            <div>
+              <p><strong>Increase in monthly active users:</strong> Platform MAU grew 8% as the redesigned experience gave clients a reason to log in regularly. Instead of relying on Account Managers or support channels for operational data, users now find balances, transaction statuses, and performance metrics directly in the platform, shifting it from an occasional portal to a daily operational tool.</p>
+              <p><strong>Paving the way for what's next:</strong> Beyond the immediate impact, the new platform created the foundation for key upcoming launches: new ramp flows for pay-ins and payouts that will simplify how clients move money in and out, and better visibility into available products and ramps. The platform now organizes and surfaces the next best actions for each client, making it easier to discover and activate services that can improve their operations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cs-marquee-outer">
+      <div class="cs-marquee-wrapper">
+        <div class="cs-marquee-track" aria-hidden="true">
+          <!-- Set 1 -->
+          <div class="cs-marquee-item">
+            <img src="assets/icons/usa-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">USA</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/europe-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Europe</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/chile-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Chile</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/brazil-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Brazil</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/mexico-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Mexico</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/colombia-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Colombia</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/argentina-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Argentina</span>
+          </div>
+          <!-- Set 2 — duplicate for seamless loop -->
+          <div class="cs-marquee-item">
+            <img src="assets/icons/usa-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">USA</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/europe-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Europe</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/chile-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Chile</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/brazil-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Brazil</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/mexico-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Mexico</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/colombia-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Colombia</span>
+          </div>
+          <div class="cs-marquee-item">
+            <img src="assets/icons/argentina-flag.svg" alt="" class="cs-marquee-flag">
+            <span class="cs-marquee-label">Argentina</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cs-team-block">
+      <p><span class="cs-team-label">Teams:</span> <span class="cs-team-list">Matheus Petroni (Product Design Lead), Michael Carvalho (Mid-Product Designer), Diego Gutierrez (Associate Product Manager), Jen Tejeda (Product Manager), Guillermo Puntons (Tech Lead), Matías Moreno (Frontend), Victor Paramo (Frontend).</span></p>
+    </div>
+
+    <!-- More cases -->
+    <div class="more-cases-wrapper">
+      <a href="index.html#work" class="more-cases-link">← MORE CASES</a>
+    </div>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+
+    <div class="footer-bar">
+      <div class="footer-bar-inner">
+        <div class="footer-location">
+          <span>São Paulo</span>
+          <time class="live-clock" id="clock-footer" aria-live="polite" aria-atomic="true"></time>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a
+            href="https://www.linkedin.com/in/matheuspetroni/"
+            class="footer-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile (opens in new tab)"
+          >LinkedIn</a>
+          <a
+            href="assets/docs/resume.pdf"
+            class="footer-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Resume PDF (opens in new tab)"
+          >Resume</a>
+          <a
+            href="https://lattes.cnpq.br/6202919776158281"
+            class="footer-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Lattes CV (opens in new tab)"
+          >Lattes</a>
+        </nav>
+        <p class="footer-copy">© 2013 — <span class="footer-copy-year">2026</span></p>
+      </div>
+    </div>
+
+    <div class="letschat-wrapper">
+      <a
+        href="mailto:contact@mthpetroni.com"
+        class="letschat"
+        aria-label="Send an email to contact@mthpetroni.com"
+      >let's chat</a>
+    </div>
+
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

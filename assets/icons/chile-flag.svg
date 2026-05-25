@@ -1,0 +1,19 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_552_17427)">
+<rect width="20" height="20" rx="10" fill="white"/>
+<mask id="mask0_552_17427" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<circle cx="10" cy="10" r="10" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_552_17427)">
+<rect x="-2.6665" width="28" height="20" fill="white"/>
+<rect x="-2.6665" y="10.2222" width="28" height="9.77778" fill="#FF0000"/>
+<rect x="-6.22211" width="16.4444" height="10.2222" fill="#1A47B8"/>
+<path d="M4.20974 8.43306L5.99991 7.39137L7.79009 8.44442L7.31251 6.47458L8.8888 5.14905L6.81443 4.97023L5.99991 3.11108L5.1854 4.95888L3.11102 5.13769L4.68731 6.46606L4.20974 8.43306Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_552_17427">
+<rect width="20" height="20" rx="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>

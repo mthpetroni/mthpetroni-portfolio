@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Matheus Petroni — Lead Product Designer with 14+ years shaping digital products.">
+  <title>Matheus Petroni – Lead Product Designer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/asterisk.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ======================================================================
+       APPBAR
+       ====================================================================== -->
+  <header class="appbar" role="banner">
+    <div class="appbar-inner">
+      <a href="index.html" class="appbar-logo" aria-label="Matheus Petroni — home">Matheus Petroni</a>
+
+      <nav class="appbar-nav" aria-label="Main navigation">
+        <a href="#work"   class="nav-link">Work</a>
+        <a href="#vision" class="nav-link">Vision</a>
+        <a href="#about"  class="nav-link">About</a>
+      </nav>
+
+      <button
+        class="hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-drawer"
+      >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MOBILE DRAWER
+       ====================================================================== -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true" inert>
+    <div class="drawer-overlay" role="presentation"></div>
+    <nav class="drawer-panel" aria-label="Mobile navigation">
+      <button class="drawer-close" aria-label="Close navigation menu">✕</button>
+      <a href="#work"   class="drawer-link">Work</a>
+      <a href="#vision" class="drawer-link">Vision</a>
+      <a href="#about"  class="drawer-link">About</a>
+    </nav>
+  </div>
+
+  <!-- ======================================================================
+       MAIN
+       ====================================================================== -->
+  <main id="main-content">
+
+    <!-- ====================================================================
+         HERO — no image, hero-bottom fades on scroll
+         ==================================================================== -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-inner">
+
+        <h1 class="hero-headline">
+          A lead designer staying curious in the digital product field for over <span id="years-experience">14</span> years.&nbsp;<img src="assets/icons/asterisk.svg" alt="" aria-hidden="true" class="hero-asterisk">
+        </h1>
+
+        <div class="hero-bottom" id="hero-bottom">
+          <div class="hero-location">
+            <span>São Paulo</span>
+            <time class="live-clock" id="clock-hero" aria-live="polite" aria-atomic="true"></time>
+          </div>
+          <a href="mailto:contact@mthpetroni.com" class="hero-cta">Let's chat</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         PROJECTS
+         ==================================================================== -->
+    <section id="work" aria-label="Selected work">
+
+      <!-- Divider — full viewport width -->
+      <div class="project-divider" role="separator"></div>
+
+      <!-- Project 1 -->
+      <article class="project-card" aria-label="Bitso Business Dashboard case study">
+        <div class="project-info">
+          <div class="project-year" aria-label="Year">2025</div>
+
+          <div class="project-title-col">
+            <h2 class="project-title"><a href="case-study-bitso-business-dashboard.html">Bitso Business<br>Dashboard</a></h2>
+            <p class="project-company">Bitso</p>
+          </div>
+
+          <div class="project-body-col">
+            <p class="project-description">A complete revamp of Bitso's merchant platform from scratch: new IA, new design system and a full suite of business tools for companies moving billions across borders.</p>
+            <p class="project-meta">Target: B2B Clients</p>
+            <p class="project-meta">Application: Web</p>
+            <a href="case-study-bitso-business-dashboard.html" class="project-more" aria-label="Read the Bitso Business Dashboard case study">MORE →</a>
+          </div>
+        </div>
+        <a href="case-study-bitso-business-dashboard.html" class="project-image-wrapper" aria-hidden="true" tabindex="-1">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+            data-src="assets/images/bitso-business-dashboard-cover.webp"
+            alt=""
+            width="780" height="540"
+            loading="lazy"
+            style="background:#000000; aspect-ratio:780/540; width:100%; height:auto;"
+            class="lazy"
+          >
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+            data-src="assets/images/bitso-business-dashboard-cover-hover.webp"
+            alt=""
+            width="780" height="540"
+            loading="lazy"
+            class="lazy cover-hover"
+          >
+        </a>
+      </article>
+
+      <!-- Divider -->
+      <div class="project-divider" role="separator"></div>
+
+      <!-- Project 2 -->
+      <article class="project-card" aria-label="Bitso Card Benefits case study">
+        <div class="project-info">
+          <div class="project-year" aria-label="Year">2023</div>
+
+          <div class="project-title-col">
+            <h2 class="project-title"><a href="case-study-bitso-card-benefits.html">Bitso Card<br>Benefits</a></h2>
+            <p class="project-company">Bitso</p>
+          </div>
+
+          <div class="project-body-col">
+            <p class="project-description">This case shows how we designed an in-app benefits experience to keep Bitso Card users engaged while a compliant version of Cryptoback (under regulatory threat) was being rebuilt.</p>
+            <p class="project-meta">Target: B2C Clients</p>
+            <p class="project-meta">Application: Mobile</p>
+            <a href="case-study-bitso-card-benefits.html" class="project-more" aria-label="Read the Bitso Card Benefits case study">MORE →</a>
+          </div>
+        </div>
+        <a href="case-study-bitso-card-benefits.html" class="project-image-wrapper" aria-hidden="true" tabindex="-1">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+            data-src="assets/images/bitso-card-benefits-cover.webp"
+            alt=""
+            width="780" height="540"
+            loading="lazy"
+            style="background:#000000; aspect-ratio:780/540; width:100%; height:auto;"
+            class="lazy"
+          >
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+            data-src="assets/images/bitso-card-benefits-cover-hover.webp"
+            alt=""
+            width="780" height="540"
+            loading="lazy"
+            class="lazy cover-hover"
+          >
+        </a>
+      </article>
+
+      <!-- Divider -->
+      <div class="project-divider" role="separator"></div>
+
+      <!-- Project 3 -->
+      <article class="project-card" aria-label="Olist Shops App case study">
+        <div class="project-info">
+          <div class="project-year" aria-label="Year">2021</div>
+
+          <div class="project-title-col">
+            <h2 class="project-title"><a href="case-study-olist-shops.html">Olist Shops App</a></h2>
+            <p class="project-company">Olist</p>
+          </div>
+
+          <div class="project-body-col">
+            <p class="project-description">A look at how we built a new store customization feature for Olist Shops — leveraging existing research, agile methods, cross-team collaboration, and open source tools to deliver it in record time without compromising quality.</p>
+            <p class="project-meta">Target: B2B and B2C Clients</p>
+            <p class="project-meta">Application: Mobile and Web</p>
+            <a href="case-study-olist-shops.html" class="project-more" aria-label="Read the Olist Shops App case study">MORE →</a>
+          </div>
+        </div>
+        <a href="case-study-olist-shops.html" class="project-image-wrapper" aria-hidden="true" tabindex="-1">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+            data-src="assets/images/olist-shops-cover.webp"
+            alt=""
+            width="780" height="540"
+            loading="lazy"
+            style="background:#000000; aspect-ratio:780/540; width:100%; height:auto;"
+            class="lazy"
+          >
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
+            data-src="assets/images/olist-shops-cover-hover.webp"
+            alt=""
+            width="780" height="540"
+            loading="lazy"
+            class="lazy cover-hover"
+          >
+        </a>
+      </article>
+
+      <!-- Coming soon -->
+      <div class="projects-coming-soon">
+        <p>More selected works<br>coming soon.</p>
+      </div>
+
+    </section>
+
+    <!-- ====================================================================
+         VISION (Accordions)
+         ==================================================================== -->
+    <section id="vision" class="vision" aria-label="Design philosophy">
+      <div class="vision-inner">
+
+        <!-- Open by default -->
+        <div class="accordion accordion--open">
+          <button class="accordion-trigger" aria-expanded="true" aria-controls="vision-designer-body">
+            <span class="accordion-title">Vision as a designer</span>
+            <span class="accordion-icon" aria-hidden="true">↑</span>
+          </button>
+          <div class="accordion-body" id="vision-designer-body" aria-hidden="false">
+            <div class="accordion-content">
+              <p>Designing for me is about creating clarity in complex environments. When someone turns to a product hoping to solve a problem, my goal is for them to immediately feel a sense of relief, understanding what to do, recognizing the value the product provides, and experiencing the satisfaction of using something that feels intuitive, thoughtful, and genuinely helpful.</p>
+              <p>My approach combines critical thinking, research, collaboration, intention and a certain level of boldness to create solutions that generate long-term value for both users and organizations. For this, flexibility is an essential part of my daily routine: whether in defining scope, navigating constraints, adjusting priorities quickly, managing stakeholders or continuously learning new skills and perspectives.</p>
+              <p>If I can create one single meaningful experience through design, I believe I can also design systems capable of scaling that impact to many more people.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="vision-leader-body">
+            <span class="accordion-title">Vision as a leader</span>
+            <span class="accordion-icon" aria-hidden="true">↓</span>
+          </button>
+          <div class="accordion-body" id="vision-leader-body" aria-hidden="true">
+            <div class="accordion-content">
+              <p>My leadership style is deeply grounded in active listening. For me, listening is the foundation from which collaboration, trust, and strong team dynamics are built. It allows me to better understand people, navigate different perspectives, and provide the clarity, direction, and accountability needed when making complex product decisions. Rather than positioning myself as someone who always has the answers, I focus on creating the conditions for teams to think critically, contribute confidently, and move forward together.</p>
+              <p>I also value transparency to create the kind of environment I would want for myself: one where people feel safe to express themselves, experiment, make mistakes with accountability, and continuously learn throughout the process.</p>
+              <p>Supporting people and driving outcomes are deeply connected goals for me. I achieve this by helping teams prioritize effectively, communicate clearly across disciplines, and make decisions grounded in both evidence and strategic impact.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="vision-futurist-body">
+            <span class="accordion-title">Vision as a futurist</span>
+            <span class="accordion-icon" aria-hidden="true">↓</span>
+          </button>
+          <div class="accordion-body" id="vision-futurist-body" aria-hidden="true">
+            <div class="accordion-content">
+              <p>Through my MSc research in Speculative Design and Futures Thinking, I've developed the belief that design should respond not only to the present, but also to possible futures. Across both my academic research and professional practice, I explore how emerging technologies such as GenAI influence human behavior, shape digital culture, and redefine the way people interact with systems, products, and machines.</p>
+              <p>This perspective strongly influences the way I approach design within the industry. By questioning assumptions and exploring alternative scenarios, I aim to help organizations anticipate change, identify risks, and build more responsible, inclusive, and future-conscious solutions. In a world increasingly shaped by rapid technological acceleration, I believe designers have an important role in shaping the conversations around the future we collectively want to create.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABOUT / BIO
+         ==================================================================== -->
+    <section id="about" class="about" aria-label="About Matheus Petroni">
+      <div class="about-inner">
+
+        <!-- Bio -->
+        <div class="bio-section">
+          <div class="bio-name">
+            <h2>Matheus Petroni,<br>or just <span class="accent">Mat</span></h2>
+          </div>
+          <div class="bio-text">
+            <p>Lead Product Designer experienced in guiding teams across multiple initiatives and business units, focused on transforming complex problems into clear, intuitive, and scalable digital experiences that balance user needs with business goals. My background covers research, prototyping, usability, and product strategy, grounded in a strong visual and interface design foundation. I value active listening, collaboration, and creating environments where teams can grow and navigate complexity together.</p>
+            <p>Alongside industry work, I explore the intersection of design, emerging technologies, and human-computer interaction through academic research in Speculative Design and Futures Thinking. I hold a Bachelor's in Graphic Design from São Paulo State University (2017) and an MSc in Human-Computer Interaction and Artificial Intelligence from Pontifical Catholic University of São Paulo (2023).</p>
+          </div>
+        </div>
+
+        <!-- ── Work + Extras — 8-col desktop grid ──
+             Col 1-2: label (row-span 2)
+             Col 3-4: work-meta
+             Col 5-6: work-content
+             Col 7-8: extras-column
+        -->
+        <div class="work-section">
+
+          <!-- Label — spans both entry rows -->
+          <div class="work-label" aria-label="Work experience">Work experience</div>
+
+          <!-- Bitso (row 1) -->
+          <div class="work-meta work-meta--1">
+            <h3 class="work-title">Design Lead at Bitso</h3>
+            <p class="work-period">2022 – Now</p>
+          </div>
+          <div class="work-content work-content--1">
+            <p>At <a href="https://bitso.com/" target="_blank" rel="noopener noreferrer" class="work-company-link">Bitso</a>, the first crypto unicorn in Latin America, I evolved from Product Designer to Design Lead, leading strategic initiatives across retail onboarding, advanced trading, Web3, B2B platforms, security, and internal operations.</p>
+            <p>My work focused on designing scalable and high-impact experiences involving blockchain infrastructure, cross-border financial operations, complex trading systems, authentication flows, debit cards and AI-ready design systems, while collaborating closely with product, engineering, compliance, and executive stakeholders across the organization.</p>
+          </div>
+          <div class="extras-column extras-col--pubs">
+            <h3 class="extras-label">Publications</h3>
+            <ul class="extras-list">
+              <li><a href="https://repositorio.pucsp.br/jspui/handle/handle/41322" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>The Use of Generative Artificial Intelligence in Undergraduate Research: An Exercise in Speculative Design – Master's thesis (2024)</a></li>
+              <li><a href="https://sistemas.intercom.org.br/pdf/link_aceite/nacional/11/0816202314593464dd0e865c52a.pdf" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>ChatGPT x news portals: a study of representation of the LGBTQIAP+ community in digital content – Intercom (2023)</a></li>
+              <li><a href="https://www.proceedings.blucher.com.br/article-details/o-design-grfico-e-o-usurio-sob-a-tica-da-incluso-algumas-consideraes-28213" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>Graphic design and the user from the perspective of inclusion: some considerations – Blucher Design Proceedings (2018)</a></li>
+              <li><a href="https://ensaiosemdesign.com.br/wp-content/uploads/2021/01/07_07_Fernanda.pdf" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>Design without borders: Action-discussion in Inclusive Graphic Design – Book "Design Essays: Knowledge and Process" (2017)</a></li>
+            </ul>
+          </div>
+
+          <!-- Olist (row 2) -->
+          <div class="work-meta work-meta--2">
+            <h3 class="work-title">Senior Design at Olist</h3>
+            <p class="work-period">2021 – 2022</p>
+          </div>
+          <div class="work-content work-content--2">
+            <p>Worked as one of the first Product Designers at <a href="https://olist.com/" target="_blank" rel="noopener noreferrer" class="work-company-link">Olist</a> Shops, a mobile commerce platform that enabled small and medium-sized businesses to create and manage their online stores in a simple and scalable way. Contributed to end-to-end product experiences for a platform used by more than 250,000 merchants worldwide, focusing on onboarding, store customization, subscriptions, and social channel integrations.</p>
+            <a href="https://www.linkedin.com/in/matheuspetroni/" class="work-more" target="_blank" rel="noopener noreferrer" aria-label="See full work history on LinkedIn (opens in new tab)">MORE EXPERIENCES →</a>
+          </div>
+          <div class="extras-column extras-col--speaking">
+            <h3 class="extras-label">Speaking</h3>
+            <ul class="extras-list">
+              <li><a href="https://www.youtube.com/watch?v=1diGuo5eT7k" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>Generative AI Under Discussion: Career Prospects in UX Design – Mergo UX Summit (2024)</a></li>
+              <li><a href="https://www.youtube.com/watch?v=wJ5Fpm-bGN8" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>ONU IGF Networking Session #153 in Kyoto/Japan – Generative AI and Synthetic Realities: Design and Governance (2023)</a></li>
+              <li><a href="https://www.youtube.com/watch?v=tByH5otiK7c&t=1s" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>Using Generative Artificial Intelligence in Scientific Initiation: an exercise in Speculative Design – TIDD Connect (2023)</a></li>
+              <li><a href="https://www.youtube.com/watch?v=NHN3f9agNJQ&t=13389s" target="_blank" rel="noopener noreferrer"><span class="link-arrow">↗</span>The Possible Futures of Virtual Voice Assistants: An Exercise in Speculative Design – TIDD Connect (2022)</a></li>
+            </ul>
+          </div>
+
+        </div><!-- /work-section -->
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+
+    <div class="footer-bar">
+      <div class="footer-bar-inner">
+        <div class="footer-location">
+          <span>São Paulo</span>
+          <time class="live-clock" id="clock-footer" aria-live="polite" aria-atomic="true"></time>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a
+            href="https://www.linkedin.com/in/matheuspetroni/"
+            class="footer-nav-link"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn profile (opens in new tab)"
+          >LinkedIn</a>
+          <a
+            href="assets/docs/resume.pdf"
+            class="footer-nav-link"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Resume PDF (opens in new tab)"
+          >Resume</a>
+          <a
+            href="https://lattes.cnpq.br/6202919776158281"
+            class="footer-nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Lattes CV (opens in new tab)"
+          >Lattes</a>
+        </nav>
+        <p class="footer-copy">© 2013 — <span class="footer-copy-year">2026</span></p>
+      </div>
+    </div>
+
+    <!-- Let's chat — always Black weight, overflows right, bottom 1/3 clipped -->
+    <div class="letschat-wrapper">
+      <a
+        href="mailto:contact@mthpetroni.com"
+        class="letschat"
+        aria-label="Send an email to contact@mthpetroni.com"
+      >let's chat</a>
+    </div>
+
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
