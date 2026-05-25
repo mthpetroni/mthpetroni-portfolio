@@ -294,6 +294,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: var(--fw-regular); line-height: 1.15; }
   flex-direction: column;
   gap: 4px;
   padding-top: 2px;
+  padding-right: 24px;
 }
 
 .project-title {
@@ -356,6 +357,14 @@ h1, h2, h3, h4, h5, h6 { font-weight: var(--fw-regular); line-height: 1.15; }
 }
 img.lazy.loaded.cover-hover { opacity: 0; }
 .project-image-wrapper:hover img.lazy.loaded.cover-hover { opacity: 1; }
+
+/* Full-width card variant — no image column */
+.project-card--full {
+  grid-template-columns: 1fr;
+}
+.project-card--full .project-info {
+  padding-right: var(--pad-desktop);
+}
 
 /* Coming soon — bordered top, bigger vertical padding */
 .projects-coming-soon {
