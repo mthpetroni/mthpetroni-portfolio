@@ -356,7 +356,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: var(--fw-regular); line-height: 1.15; }
   transition: none;
 }
 img.lazy.loaded.cover-hover { opacity: 0; }
-.project-image-wrapper:hover img.lazy.loaded.cover-hover { opacity: 1; }
+.project-image-wrapper:hover img.lazy.loaded.cover-hover,
+.project-card:has(.project-title a:hover) img.lazy.loaded.cover-hover,
+.project-card:has(.project-more:hover) img.lazy.loaded.cover-hover { opacity: 1; }
 
 /* Full-width card variant — no image column */
 .project-card--full {
