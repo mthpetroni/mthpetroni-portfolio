@@ -378,6 +378,7 @@ img.lazy.loaded.cover-hover { opacity: 0; }
   font-weight: var(--fw-regular);
   line-height: 1.15;
 }
+.projects-coming-soon .more-cases-link { margin-top: 56px; display: inline-block; }
 
 /* ----------------------------------------------------------------------------
    8. VISION SECTION (ACCORDIONS)
@@ -895,7 +896,8 @@ img.lazy.loaded.cover-hover { opacity: 0; }
     padding-right: var(--pad-tablet);
     padding-block: 40px;
   }
-  .projects-coming-soon { padding-inline: var(--pad-tablet); padding-block: 72px; }
+  .projects-coming-soon { padding-inline: var(--pad-tablet); padding-top: 80px; padding-bottom: 96px; }
+  .projects-coming-soon .more-cases-link { margin-top: 40px; }
 
   .vision-inner { padding-inline: var(--pad-tablet); }
   .accordion-content { grid-template-columns: 70px 1fr 2fr; }
@@ -972,7 +974,8 @@ img.lazy.loaded.cover-hover { opacity: 0; }
   .project-year      { font-size: 13px; margin-bottom: 12px; }
   .project-title-col { display: flex; flex-direction: column; gap: 2px; margin-bottom: 12px; }
   .project-body-col  { display: flex; flex-direction: column; gap: 6px; }
-  .projects-coming-soon { padding-inline: var(--pad-mobile); padding-top: 56px; padding-bottom: 80px; }
+  .projects-coming-soon { padding-inline: var(--pad-mobile); padding-top: 72px; padding-bottom: 88px; }
+  .projects-coming-soon .more-cases-link { margin-top: 32px; }
 
   /* Vision */
   .vision-inner { padding-inline: var(--pad-mobile); }
