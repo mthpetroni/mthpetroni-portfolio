@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="cs-header-right">
-            <p class="cs-intro">Bitso Card's hero feature, Cryptoback, was about to disappear under regulatory pressure. This case shows how we designed an in-app benefits experience to keep users engaged while a compliant rewards model was being built.</p>
+            <p class="cs-intro">Bitso Card's most powerful retention lever — Cryptoback, a crypto rewards program — was about to disappear. Regulatory pressure in Mexico required the team to sunset the feature, and with it, the primary reason cardholders cited for using the card. This project shows how I designed an in-app benefits experience to sustain engagement and NPS while a compliant long-term rewards model was being built behind the scenes.</p>
             <p class="cs-timeframe">Timeframe: 2 months</p>
           </div>
         </div>
@@ -120,12 +120,19 @@
           <h2 class="cs-section-title">Scenario and roles</h2>
           <div class="cs-section-body">
             <div>
-              <p>Cryptoback was the most important feature of our card marketing strategy (along with the cashback activation offer), with around 8M users expecting it. Customer Support tickets and NPS comments confirmed the pattern: "Benefits disappearing after the regulatory change was a perfect attractor for detractors and promoter scores."</p>
-              <p>The card team had around four members from each discipline. The expectation was an easy-to-redeem benefits experience capable of driving NPS and crypto loyalty.</p>
+              <p>Cryptoback was the centerpiece of Bitso Card's value proposition — and the single most mentioned feature in both marketing materials and user feedback. It worked simply: every card purchase earned a percentage back in crypto, deposited automatically into the user's wallet. For many users, it was the reason they activated the card at all.</p>
+              <p>In early 2023, a regulatory change from Mexico required Bitso to phase out Cryptoback in its current form. The feature couldn't continue operating under the new compliance framework, and there was no immediate replacement ready.</p>
+              <p>The risk was measurable and urgent:</p>
+              <ul class="cs-bullet-list">
+                <li><strong>NPS was directly tied to Cryptoback.</strong> Analysis of NPS showed that a huge part of comments in the previous quarter specifically mentioned Cryptoback as their reason for usage.</li>
+                <li><strong>Card usage depended on perceived value.</strong> Behavioral data showed that users who had active Cryptoback rewards made 5x more transactions per month than those who didn't. Removing the feature without a replacement risked a sharp drop in card engagement.</li>
+              </ul>
             </div>
             <div>
-              <p>The team the had around 4 card team members from each discipline, waiting that is and easy to redeem benefits to each of NPS and crypto loyalty. As the Product Designer leading the effort, I worked end-to-end — from research synthesis and concept framing through to final handoff and QA.</p>
-              <p>I partnered closely with PM, Data Science, Content Design, Engineering, Marketing and Legal to ship the feature while navigating a highly constrained regulatory environment.</p>
+              <p>The team's challenge was designing something that could sustain engagement and protect NPS during the transition period, while staying fully compliant with the new regulatory environment.</p>
+              <p>As the Senior Product Designer leading this effort, I owned the project end-to-end — from research synthesis and concept development through to final interaction design, handoff, and QA.</p>
+              <p>I partnered closely with the Product Manager on prioritization and phasing, with Data Science on behavioral analysis and metric definition, with Content Design on copy strategy (critical in a regulatory context), with Legal on compliance review of every user-facing surface, with Engineering on technical constraints and rollout, and with Marketing on positioning the benefits launch externally.</p>
+              <p>I also iterated previous work from Catarina Corniani (Senior Product Designer) on adjacent card surfaces.</p>
             </div>
           </div>
         </div>
@@ -160,21 +167,30 @@
     </div>
 
     <!-- ====================================================================
-         PROCESS
+         DISCOVERY
          ==================================================================== -->
-    <section class="cs-section" aria-label="Process">
+    <section class="cs-section" aria-label="Discovery">
       <div class="cs-section-inner">
         <div>
-          <h2 class="cs-section-title">Process</h2>
+          <h2 class="cs-section-title">Discovery</h2>
           <div class="cs-section-body">
             <div>
-              <p>We adopted a deep discovery approach: a Card Benefits Survey, two rounds of in-depth interviews including card sorting exercises, a satisfaction survey, a Kano Model questionnaire, a competitive analysis to cover our user panel and a behavioral map supported by data analytics.</p>
-              <p>From there, I framed the features in three progressive phases of commitment, starting with something users could immediately engage with and progressively linking it to crypto literacy.</p>
+              <p>Given the urgency — two months to ship — we ran a compressed but structured discovery program. The constraint forced us to be deliberate about which methods would yield the most actionable insights in the shortest time.</p>
+              <ul class="cs-bullet-list">
+                <li><strong>Card Benefits Survey</strong> — Distributed to all active cardholders from a three-month window to quantify which benefit types users valued most, their willingness to engage with non-crypto rewards, and their emotional response to the Cryptoback changes.</li>
+                <li><strong>Two rounds of in-depth interviews with card sorting</strong> — 10 participants across both rounds. The first round focused on understanding how users mentally categorized card benefits (crypto rewards, discounts, exclusive access, cashback) and what "valuable" meant to them in practice. The second round tested early concepts.</li>
+                <li><strong>Behavioral analytics</strong> — Working with Data Science, we mapped card usage patterns by benefit engagement level, identifying which user segments were most at risk from the Cryptoback removal and what alternative engagement signals existed.</li>
+                <li><strong>Competitive analysis</strong> — We benchmarked more than 10 card loyalty and benefits programs, including traditional financial products and crypto-native products, to understand market standards for rewards communication and redemption UX.</li>
+              </ul>
             </div>
             <div>
-              <p>In parallel, I worked on an "Exclusive deals" concept — a benefit code experience — to move the product experience closer to real-world reward programs users already understood.</p>
-              <p>I collaborated with Content Design on copy strategy to ensure we used positive-forward language that avoided triggering regulatory concerns while still creating genuine excitement around the benefits.</p>
-              <p>We validated the flows through internal critiques and a round of concept testing with the same user panel from our interviews, iterating the redemption step before rollout.</p>
+              <p><strong>What we learned</strong></p>
+              <ul class="cs-bullet-list">
+                <li><strong>Users cared about the feeling of earning, not just the asset.</strong> Interview participants consistently described Cryptoback's value in emotional terms: "it feels like I'm getting something every time I buy." The specific crypto asset mattered less than the sense of accumulation. This meant a non-crypto benefit could work if it preserved the feeling of earning with every transaction.</li>
+                <li><strong>Simplicity of redemption was a dealbreaker.</strong> The survey analysis showed that "easy to redeem" was one of the strongest must-have attributes. Users who had experienced loyalty programs with complex point systems or expiration dates were strongly averse to anything that felt effortful.</li>
+                <li><strong>Any form of cashback outperformed other benefit types.</strong> Across the survey and interviews, cashback in any format (crypto, fiat, statement credit) consistently ranked first. Exclusive deals and partner discounts were valued, but as additions — never as replacements for cashback.</li>
+                <li><strong>Credit was the next frontier.</strong> Unprompted, 10 out of 10 interview participants mentioned wanting a credit card from Bitso instead of only debit. This wasn't in scope for this project, but the consistency of the signal was strong enough to feed directly into roadmap proposals for the following quarters.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -195,20 +211,49 @@
     </div>
 
     <!-- ====================================================================
+         KEY DESIGN DECISIONS
+         ==================================================================== -->
+    <section class="cs-section" aria-label="Key design decisions">
+      <div class="cs-section-inner">
+        <div>
+          <h2 class="cs-section-title">Key design decisions</h2>
+          <div class="cs-section-body">
+            <div>
+              <p>Rather than launching a single feature and hoping it stuck, I framed the benefits experience as three progressive phases of user commitment, each designed to meet users where they were and gradually deepen engagement:</p>
+              <ul class="cs-bullet-list">
+                <li><strong>Phase 1 — Immediate value (this launch).</strong> Low-friction benefits that users could engage with instantly: partner deals, exclusive discount codes, and curated offers surfaced directly in the card section of the app. No crypto knowledge required. The goal was to fill the engagement gap left by Cryptoback's reduction immediately.</li>
+                <li><strong>Phase 2 — Crypto-linked rewards (next quarter).</strong> A compliant version of crypto benefits — structured in partnership with Legal — that would link card usage back to crypto earning in a way that satisfied the new regulatory framework. This was the path back to what users loved about Cryptoback, rebuilt on compliant foundations.</li>
+                <li><strong>Phase 3 — Personalized loyalty (future).</strong> A tier or segment-based system where benefits improved with usage, creating a retention flywheel. This phase would leverage the behavioral data being collected from Phases 1 and 2 to personalize rewards by user segment.</li>
+              </ul>
+              <br>
+              <p>This phasing gave us a strategic story for stakeholders (not just a quick fix, but a roadmap), a clear scope for the next sprints (Phase 1 only) and a research foundation that would carry into future phases. Unfortunately, the other two rollouts were deprioritized due to changes in the organization.</p>
+            </div>
+            <div>
+              <p>For Phase 1, I designed an "Exclusive Deals" experience — a benefit code model that moved the product closer to real-world reward programs users already understood. The concept was deliberately simple: curated deals from partner brands, each with a unique code, redeemable in a two-tap flow.</p>
+              <p><strong>Why this direction:</strong> Research showed that users' mental model of "benefits" was anchored in programs they already used such as cashback, airline miles, retail loyalty cards. A code-based deal system mapped directly to that mental model. It didn't require users to learn a new paradigm, and it didn't trigger the regulatory concerns associated with crypto reward language.</p>
+              <p><strong>What we rejected:</strong> An early concept explored a points-based accumulation system where card transactions earned points exchangeable for benefits. We killed it after the discovery analysis showed that points systems with delayed gratification were strongly associated with negative sentiment — users described them as "tricks" and "things that expire before you use them." Immediate, tangible value won.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
          DELIVERABLES
          ==================================================================== -->
     <section class="cs-section" aria-label="Deliverables">
       <div class="cs-section-inner">
         <div>
           <h2 class="cs-section-title">Deliverables</h2>
-          <div class="cs-section-body deliverables">
+          <div class="cs-section-body eighty">
             <div>
+              <p>The core delivery was a complete benefits flow integrated into the Bitso Card section of the app.</p>
               <ul class="cs-bullet-list">
-                <li>In-app feature: home carousel, browse page and benefit detail/redemption screens</li>
-                <li>Push notification and email templates to surface benefits updates</li>
-                <li>A "Card" module for the Bitso app for the card product area landing page</li>
-                <li>Localization: error messages, localization keys and redemption copy for Cardholder Agreement flow</li>
-                <li>A research synthesis that fed directly into the upcoming product MVP (Mid-2023), shaping the path back to compliant crypto rewards</li>
+                <li><strong>Home carousel:</strong> A horizontally scrollable surface on the card dashboard showing active benefits, highlighted deals, and time-sensitive offers. Designed to be the first thing cardholders see when they open the card section, replacing the visual space previously occupied by Cryptoback metrics.</li>
+                <li><strong>Browse page:</strong> A dedicated benefits page where users can explore all available offers, filtered by category (food, entertainment, shopping, services). The layout was informed by competitive benchmarking — we adopted a card-grid pattern similar to what users recognized from retail apps, reducing learning curve.</li>
+                <li><strong>Benefit detail and redemption screens:</strong> A two-tap redemption flow: tap a benefit to see the detail (brand, offer, terms), tap "Redeem" to get the code. The Kano insight about redemption simplicity drove this decision — we explicitly chose to minimize steps rather than add confirmation screens that would feel like friction.</li>
+                <li><strong>Push notifications and email templates:</strong> We designed notification templates to surface benefits updates — new deals available, expiring offers, and engagement nudges — across push and email channels. The copy followed the positive-forward language framework developed with Legal and Content Design.</li>
+                <li><strong>Research synthesis as a strategic artifact:</strong> The accumulated body of research (survey results, interview transcripts, behavioral maps, competitive benchmarks) was packaged into a synthesis document that fed directly into the next product phase. It became the evidence base for the mid-2023 MVP proposal to rebuild compliant crypto rewards (Phase 2).</li>
               </ul>
             </div>
           </div>
@@ -216,6 +261,9 @@
       </div>
     </section>
 
+    <!-- ====================================================================
+         DELIVERABLES
+         ==================================================================== -->
     <div class="cs-image-block">
       <img
         src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27/%3E"
@@ -264,14 +312,16 @@
           <h2 class="cs-section-title">Results and learnings</h2>
           <div class="cs-section-body">
             <div>
-              <p>During the rollout, the card reached the highest NPS in its history: NPS improved among cardholders by 70+ ppts. Wallet transactions were increasing by +30% and MAUs grew by +30%. We credit the benefits launch for approx. 40% of the transaction number growth, numbers that are directly aligned with our research findings pointing to benefits as a crucial driver of card usage.</p>
-              <p>Despite strong NPS results, we expected greater transaction growth. The continuous reduction of cryptoback was hitting the product hard, which shaped our biggest learnings going into the next phase.</p>
+              <p>The benefits launch coincided with a period of strong performance for the Bitso Card. During the benefits rollout, the card reached the highest NPS in its history: NPS improved among cardholders by 70+ ppts.</p>
+              <p>Monthly wallet transactions grew by 30% in the period following the launch. Our attribution model, built with Data Science, estimated that the benefits feature accounted for approximately 40% of the transaction growth — directly aligned with the research finding that benefits drive card usage.</p>
+              <p>Card MAU increased by 30%, indicating that the benefits experience gave users a reason to return to the card section of the app more frequently. The remaining growth was attributed to other concurrent initiatives including marketing campaigns and seasonal effects.</p>
+              <p>But despite the strong results, we expected greater absolute transaction growth. The ongoing reduction of Cryptoback continued to weigh on the product — the benefits launch offset some of the decline but didn't fully compensate. This was our clearest signal that any form of cashback (Phase 2) needed to ship as fast as possible.</p>
             </div>
             <div>
-              <p><strong>The biggest learnings:</strong></p>
-              <p><strong>Navigating legal creatively unlocks possibilities.</strong> Working closely with the legal team to find compliant solutions taught me how to push for the most creative outcomes within real constraints, keeping cryptoback viable for a little more time while layering new benefits for users. Qualitative research was essential here, giving us the evidence needed to make the case internally and move forward with confidence</p>
-              <p><strong>Continuous research compounded.</strong> The body of user research accumulated throughout the project made new initiatives faster and more grounded: each round built on the last, reducing uncertainty and strengthening our decisions over time.</p>
-              <p><strong>Any form of cashback matters and credit should be our next move.</strong> Research consistently showed strong user interest in cashback regardless of format, and surfaced a clear demand for a credit card. These insights directly fed new roadmap proposals and stakeholder pitches for the following quarters.</p>
+              <p><strong>What I learned</strong></p>
+              <p><strong>Navigating legal constraints is a design skill, not a blocker.</strong> The most creative outcomes in this project came from the closest collaboration with Legal. Treating compliance as a design input opened possibilities that the team had assumed were closed. The reduced Cryptoback that survived alongside the new benefits only happened because we found compliant framing together, backed by research evidence.</p>
+              <p><strong>Compressed research compounds if you structure it well.</strong> We ran five research methods in roughly three weeks. What made it work was that each method was designed to answer a specific question, and the findings built on each other sequentially. The survey identified what users valued; the interviews explained why; the card sorting analysis prioritized the features; the behavioral data identified at-risk segments; and the competitive analysis provided implementation references. This body of work became the foundation for the next two quarters of roadmap planning.</p>
+              <p><strong>Any form of cashback matters, and credit should be next.</strong> Users' emotional attachment to earning something with every transaction was stronger than their attachment to any specific reward format. And the consistent, unprompted demand for a credit card was the most surprising finding — one that directly shaped stakeholder pitches for subsequent quarters.</p>
             </div>
           </div>
         </div>
@@ -279,7 +329,28 @@
     </section>
 
     <div class="cs-team-block">
-      <p><span class="cs-team-label">Team:</span> <span class="cs-team-list">Matheus Petroni (Senior Product Designer), Catarina Correa (Senior Product Designer), Product Manager, Hana Dinato (Team Designer), Data Science, Team Designer, Visual Marketing</span></p>
+      <p><span class="cs-team-label">Team:</span> <span class="cs-team-list">Matheus Petroni (Senior Product Designer), Sergio Minor (Mid-Content Designer), Raul Leal (Product Manager), Carlos Omaña (Tech Lead), Leandro Romano (Mobile Engineer), Catarina Corniani (Previous Senior Product Designer), Ciss Najar (Marketing), Creative Lab team.</span></p>
+    </div>
+
+    <div class="cs-accordion-block">
+      <div class="cs-accordion-block-inner">
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="note-2026-card-body">
+            <span class="accordion-title">A note from 2026: What I would do differently</span>
+            <span class="accordion-icon" aria-hidden="true">↓</span>
+          </button>
+          <div class="accordion-body" id="note-2026-card-body" aria-hidden="true">
+            <div class="accordion-content">
+              <p><strong>Use research signals to shape product direction, not just validate design decisions.</strong></p>
+              <p>Two findings from this project were strong enough to justify a product bet, not just a design recommendation: users' emotional attachment to any form of cashback was more durable than we credited at the time, and the unprompted demand for a Bitso credit card was consistent enough across interviews to be statistically meaningful. I flagged both in the research synthesis, but I didn't push hard enough on either. Later, this became part of the product strategy, but with the stakeholder management skills and design voice I have today, I'd treat those signals differently. I'd build a PoC, put it in front of leadership with a clear business case, and advocate for where the product should go next, not just for what the current sprint should deliver. Influence over product direction is something I've learned to claim deliberately.</p>
+              <p style="margin-top: 3.5rem;"><strong>Rethink the structure of the card home and the scope of the benefits hub.</strong></p>
+              <p>On the card home screen, I'd challenge the visual hierarchy more aggressively today. The large card-format banners we shipped prioritized visual impact over scannability, and in a surface users visit frequently, that trade-off inverts quickly. Smaller, denser components would have served returning users better while keeping the experience approachable for new ones. More importantly, I'd expand the concept of the benefits hub entirely. What we shipped was a curated list of external partner deals — useful, but narrow. A true benefits hub would surface everything a cardholder has access to: cashbacks (while they were active), insurance coverage, crypto perks, partner deals, and any tier-based privileges — all in one place, with clear status and redemption paths.</p>
+              <p style="margin-top: 3.5rem;"><strong>Define attribution before launch, not after.</strong></p>
+              <p>The results we report (+30% wallet transactions, +30% MAU) are partially attributed to the benefits launch, but the attribution model was built retrospectively. We estimated that benefits drove roughly 40% of the transaction growth. If I had worked with Data Science before launch to define a measurement framework such a control group of users who hadn't seen the benefits experience or a pre/post funnel scoped specifically to benefits, the impact claim would be precise rather than estimated.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="cs-image-block">

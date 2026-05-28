@@ -692,6 +692,8 @@ img.lazy.loaded.cover-hover { opacity: 0; }
 .cs-section-body > div:nth-child(2) { grid-column: 3; }
 .cs-section-body.wide-first > div:first-child { grid-column: 1 / 3; }
 .cs-section-body.full { grid-template-columns: 1fr; }
+.cs-section-body.eighty { grid-template-columns: 1fr; }
+.cs-section-body.eighty > div { max-width: 80%; }
 .cs-section-body.deliverables { grid-template-columns: 6fr 2fr; }
 .cs-section-body p { font-size: var(--fs-body); font-weight: var(--fw-regular); line-height: 1.6; }
 .cs-section-body p + p { margin-top: 16px; }
@@ -867,11 +869,22 @@ img.lazy.loaded.cover-hover { opacity: 0; }
 .cs-team-block .cs-team-label { font-size: 20px; font-weight: var(--fw-black); line-height: auto; }
 .cs-team-block .cs-team-list  { font-size: 20px; font-weight: var(--fw-extralight); line-height: auto; }
 
+.cs-accordion-block {
+  background: var(--c-text);
+  color: var(--c-bg);
+}
+
+.cs-accordion-block-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding-inline: var(--pad-desktop);
+}
+
 .more-cases-wrapper {
   max-width: var(--max-w);
   margin: 0 auto;
   padding-inline: var(--pad-desktop);
-  padding-block: 64px 120px;
+  padding-block: 120px 120px;
   display: flex;
   justify-content: flex-end;
 }
@@ -949,8 +962,10 @@ img.lazy.loaded.cover-hover { opacity: 0; }
   .cs-section-body     { grid-template-columns: 1fr; }
   .cs-section-body > div:nth-child(2) { grid-column: auto; }
   .cs-section-body.deliverables { grid-template-columns: 1fr; }
+  .cs-section-body.eighty > div { max-width: 100%; }
   .cs-image-block      { padding-inline: var(--pad-tablet); }
-  .more-cases-wrapper  { padding-inline: var(--pad-tablet); }
+  .cs-accordion-block-inner { padding-inline: var(--pad-tablet); }
+  .more-cases-wrapper  { padding-inline: var(--pad-tablet); padding-top: 80px; }
   .cs-achievements     { grid-template-columns: repeat(3, 1fr); }
   .cs-stats { margin-top: 32px; }
 }
@@ -1035,13 +1050,15 @@ img.lazy.loaded.cover-hover { opacity: 0; }
   .cs-section-body    { grid-template-columns: 1fr; gap: 24px; }
   .cs-section-body > div:nth-child(2) { grid-column: auto; }
   .cs-section-body.deliverables { grid-template-columns: 1fr; }
+  .cs-section-body.eighty > div { max-width: 100%; }
   .cs-stats { grid-template-columns: 1fr 1fr; margin-top: 32px; }
   .cs-achievements { grid-template-columns: 1fr; }
   .cs-team-block { grid-template-columns: 1fr; padding-inline: var(--pad-mobile); }
   .cs-team-block .cs-team-label,
   .cs-team-block .cs-team-list { font-size: 16px; }
   .cs-image-block     { padding-inline: var(--pad-mobile); }
-  .more-cases-wrapper { padding-inline: var(--pad-mobile); padding-top: 12px; padding-bottom: 80px; }
+  .cs-accordion-block-inner { padding-inline: var(--pad-mobile); }
+  .more-cases-wrapper { padding-inline: var(--pad-mobile); padding-top: 80px; padding-bottom: 80px; }
   .more-cases-link { font-size: 16px; }
 }
 
